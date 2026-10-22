@@ -1,0 +1,42 @@
+/* ==============================================================================
+// Script Name:     vscode-custom-styles.css.json
+// Description:     Custom CSS for use with the vsocde custom css/js extension
+//                  (https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
+// Author:          Adam A https://github.com/atariq11700
+// Date Created:    2026-10-21
+// License:         AGPL-3.0
+============================================================================== */
+
+/* Move function parameter hints box to the bottom middle of the screen. Give it a border
+with rounded corners */
+.parameter-hints-widget> .phwrapper {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.parameter-hints-widget .phwrapper .parameter.active {
+    font-style: italic !important;
+    font-weight: bold !important;
+}
+
+.parameter-hints-widget {
+    position: fixed !important;
+    border-width: 2px !important;
+    border-radius: 12px !important;
+    padding: 10px !important;
+    width: 70% !important;
+    top: unset !important;
+    bottom: 0px !important;
+    margin-bottom: 40px !important;
+    left: 15% !important;
+    border-color: #464646 !important;
+}
+
+.suggest-widget {
+    border-color: #464646 !important;
+}
+
+.suggest-details-container .suggest-details {
+    border-color: #464646 !important;
+    border-radius: 8px !important;
+}

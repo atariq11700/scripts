@@ -1,0 +1,10 @@
+logs/*/*
+!logs/*/.gitkeep
+progs/*
+!progs/.gitkeep
+*.lnk
+.git/
+__pycache__/
+*.log
+*.ipynb
+*.json
